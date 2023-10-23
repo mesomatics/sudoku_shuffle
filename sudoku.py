@@ -89,4 +89,4 @@ def shuffle(click, data):
 
 
 if __name__ == '__main__':
-    server.run(port=73)
+    server.run("0.0.0.0", port=73)
